@@ -1,5 +1,70 @@
-section{
-	border: solid 1px;
-	border-color: black;
+body{
 
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+}
+h1{
+	text-align: center;
+	font-size: 175%;
+}
+
+h4{	
+	font-size: 125%;
+	position: absolute;
+	border: black solid 1px;
+	width:120px;
+	margin-top: 0px;
+	text-align: center;
+	top: 0px;
+	right: 0px;
+	overflow: hidden;
+}
+section{
+	border: black solid 1px;
+	background-color: #aaaaaa;
+	position: relative;
+	margin-top: 3%;
+	margin-left: 2%;
+	padding: 40px 2% 2% 2%;
+	box-sizing: border-box;
+}
+
+#chi h4{
+	background-color: yellow;
+	color: #A0A0A0;
+}
+
+#bee h4{
+	background-color: #dd00dd;
+	color: #ffffff;
+}
+
+#shu h4{
+	background-color: #ddaa00;
+	color: #A52A2A;
+}
+
+@media (min-width: 992px){
+	section {
+		float: left;
+		width: 30%;		
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+	#chi {
+		width: 94%
+	}
+	#bee, #shu{
+		float: left;
+		width: 46%
+	}
+
+}
+
+@media (max-width: 767px){
+	section {
+		width: 90%;
+	}	
 }
