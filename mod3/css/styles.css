@@ -1,0 +1,8 @@
+.col-md-6{
+	background-color: magenta;
+	border: red solid 1px;
+}
+ .col-md-3, .col-md-4{
+	border: black solid 1px;
+	
+}
