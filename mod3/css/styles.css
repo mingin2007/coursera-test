@@ -1,12 +1,22 @@
-.col-md-3{
-	background-color: magenta;
-	border: red solid 1px;
-}
- .col-md-3, .col-md-4{
-	border: black solid 1px;
-	
-}
-#my-content{
-	background-color: #abacf0;
 
+.my-content{
+	box-sizing: border-box;;
+	background-color: #abacf0;
+	margin-bottom: 25px;
+}
+
+@media(min-width: 992px){
+	.col-md-4{
+	width:30%;
+	margin-right: 2%;
+}}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.col-sm-6{
+	width:48%;
+	margin-right: 2%;
+	}
+	.col-sm-12{
+	width:98%;
+	}
 }
