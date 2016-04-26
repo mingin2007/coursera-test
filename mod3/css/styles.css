@@ -7,9 +7,9 @@
 
 @media(min-width: 992px){
 	.col-md-4{
-	width:30%;
-	margin-right: 2%;
-}}
+	padding: 15px;
+		
+	}}
 
 @media(min-width: 768px) and (max-width: 991px){
 	.col-sm-6{
